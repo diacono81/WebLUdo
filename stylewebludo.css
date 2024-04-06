@@ -1,0 +1,82 @@
+body {
+
+    font-family: 'Pacifico', cursive; /* Aplicando la fuente Pacifico */
+   /* font-family: Arial, sans-serif;
+    /* background-color: #f8f9fa; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+
+    margin: 20;
+    padding: 20;
+    background-image: url('imagen/FondoPrincipal.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-position: center; /* Ajusta la posición de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    /*font-family: Arial, sans-serif;*/
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #f2f2f2;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr  :nth-child(even)  {
+    background-color: #f2f2f2;
+}
+
+
+
+   
+
+
+.container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #f2f2f2(0, 0, 0, 0.1); 
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 { 
+    text-align: center;
+    font-weight: bold;
+
+    -webkit-text-stroke-width: 0. 01px; /* Ancho del borde */
+    -webkit-text-stroke-color: #ffffff; /* Color del borde */
+   /* text-stroke-width: 1px; /* Ancho del borde */
+   /* text-stroke-color: rgb(253, 241, 6); /* Color del borde */
+}
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+ th {
+    background-color: #f2f2f2;
+}
+
+tr /* :nth-child(even) */ {
+    background-color: #f8f9fa;
+} 
