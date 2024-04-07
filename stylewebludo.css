@@ -100,7 +100,7 @@ th, td {
 }
 
  th {
-    background-color: #f2f2f2;
+    background-color: hsl(164, 86%, 63%);
 }
 
 tr /* :nth-child(even) */ {
