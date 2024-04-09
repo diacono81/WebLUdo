@@ -27,6 +27,8 @@ body {
     /*font-family: Arial, sans-serif;*/
 }
 table {
+    mso-displayed-decimal-separator:"\.";
+        mso-displayed-thousand-separator:"\.";
     border-collapse: collapse;
     width: 100%;
 }
@@ -38,8 +40,8 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-tr  :nth-child(even)  {
-    background-color: #f2f2f2;
+tr  /*:nth-child(even) */ {
+    background-color: hsl(221, 92%, 51%);
 }
 
 
@@ -95,16 +97,16 @@ h2 {
 
 th, td {
     padding: 10px;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid rgb(105, 60, 251);
     text-align: center;
 }
 
  th {
-    background-color: hsl(164, 86%, 63%);
+    background-color: #ffffff;
 }
 
 tr /* :nth-child(even) */ {
-    background-color: #f8f9fa;
+    background-color: hwb(80 41% 7%);
 } 
 
 .boton {
