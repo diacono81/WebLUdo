@@ -39,9 +39,9 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-tr  /*:nth-child(even) */ {
+/*tr  :nth-child(even)  {
     background-color: hsl(221, 92%, 51%);
-}
+} */
 
 
 .logo {
@@ -96,6 +96,13 @@ h2 {
    /* text-stroke-width: 1px; /* Ancho del borde */
    /* text-stroke-color: rgb(253, 241, 6); /* Color del borde */
  }
+
+ h4 {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 80% de opacidad */
+    text-align:left;
+    font-weight: bold;
+    padding: 40px;
+}
 
  table {
     width: 100%;
