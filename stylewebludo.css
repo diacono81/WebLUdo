@@ -27,9 +27,11 @@ body {
     /*font-family: Arial, sans-serif;*/
 }
 table {
-   
-    border-collapse: collapse;
-    width: 100%;
+    margin-top: 20px;
+    border:1px solid black;
+    /*border-collapse: collapse;*/
+    width: 70%;
+    padding-left: 4%;
 }
 th, td {
     border: 1px solid #f2f2f2;
@@ -39,9 +41,10 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-/*tr  :nth-child(even)  {
-    background-color: hsl(221, 92%, 51%);
-} */
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+} 
 
 
 .logo {
@@ -104,13 +107,10 @@ h2 {
     padding: 40px;
 }
 
- table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
+
 
 th, td {
+    border:1px solid black;
     padding: 10px;
     border-bottom: 1px solid rgb(105, 60, 251);
     text-align: center;
