@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    
+    width: 100%;
     /* font-family: Arial, sans-serif; */
     margin: 30;
     padding: 30;
@@ -30,13 +30,16 @@ body {
 table {
     margin-top: 20px;
     border-collapse: collapse;
-    width: 70%;
+    width: 100%;
+    padding: 10px;
+    height: 10px;
 }
 
 th, td {
     
-    padding: 10px;
+    padding: 45px;
     text-align: center;
+    height: auto;
 }
 
 th {
@@ -78,7 +81,7 @@ tr:nth-child(even) {
     padding: 20px;
     max-width: 600px;*/
     margin: 50px auto; /* Margen superior e inferior de 20px y centrado horizontal */
-    width: 70%; /* Ancho de la tabla */
+    width: 100%; /* Ancho de la tabla */
     overflow-x: auto; /* Añadir barra de desplazamiento horizontal si el contenido es demasiado ancho */
 }
 
@@ -124,7 +127,7 @@ h2 {
 
 th, td {
     border:1px solid black;
-    padding: 10px;
+    padding: 45px;
  
     text-align: center;
 } 
@@ -173,4 +176,24 @@ footer {
     margin-right: 30px;
     width: 100px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+}
+
+.tabladerecha { 
+
+border-collapse: collapse; /* Colapsa los bordes para que no se vean dobles */
+        margin: 40px; /* Márgenes exteriores de 20px */
+        padding: 5%; /* Relleno interno de 10px */
+        width: 100%;
+}
+
+@media (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    table {
+        font-size: 14px; /* Reduce el tamaño de fuente */
+    }
 }
