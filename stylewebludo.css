@@ -40,11 +40,16 @@ th, td {
 }
 
 th {
-    background-color: hsl(52, 92%, 71%);
+    background-color: hwb(7 44% 2%);
 }
 
+tr:nth-child(-n+3) {
+    background-color: hwb(60 40% 4%); /* Cambia este color según tus preferencias */
+}
+
+
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: hsl(124, 87%, 70%);
 }
 
 /*tr:hover {
@@ -127,7 +132,7 @@ th, td {
 
 
 tr /* :nth-child(even) */ {
-    background-color: rgb(52, 223, 226);
+    background-color: hwb(0 100% 0%);
 } 
 
 .boton {
