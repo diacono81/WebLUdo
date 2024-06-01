@@ -69,6 +69,15 @@ tr:nth-child(even) {
     width: 100px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
 }
+
+.Primero {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
 .logo:last-child {
     margin-right: 0;
 }
