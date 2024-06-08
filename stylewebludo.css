@@ -78,6 +78,16 @@ tr:nth-child(even) {
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
 }
 
+
+.FotoPerfil {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    width: 70px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+
 .logo:last-child {
     margin-right: 0;
 }
