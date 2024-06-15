@@ -28,6 +28,17 @@ body {
 }
 
 table {
+    font-size: small;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    height: 10px;
+    font-size: large;
+}
+
+.tabladerecha {
+    font-size: x-small;
     margin-top: 20px;
     border-collapse: collapse;
     width: 100%;
