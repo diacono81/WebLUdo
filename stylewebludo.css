@@ -55,7 +55,7 @@ th, td {
 }
 
 th {
-    background-color: hwb(7 44% 2%);
+    background-color: rgb(205, 112, 238);
 }
 
 tr:nth-child(-n+3) {
